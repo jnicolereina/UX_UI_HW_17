@@ -1,11 +1,19 @@
 .inline-block {
     display: inline-block; /* This will cause the navbar elements to line up next to each other */
     vertical-align: top;   /* Ensures all elements align next to one another */
+
+}
+.fontsizefornav {
+    font-family: Arial, Helvetica, sans-serif;
 }
 .logo {
-    width: 23%;
+    width: 10%; 
+    height: auto;
     padding: 1%;
-    text-align: center; /* Centering the images inside the logo container */
+    /*text-align: center; /* Centering the images inside the logo container */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Targeting the nav HTML element */
@@ -30,11 +38,13 @@ img {
 
 .heroImg {
     height: 600px;
+    width: 100%;
+    height: auto;
     padding: 25px;
 }
 
 .content {
-    width: 500px;
+    width: 100%;
     margin: 0 auto;
 }
 
